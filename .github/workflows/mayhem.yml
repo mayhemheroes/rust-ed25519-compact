@@ -55,6 +55,7 @@ jobs:
       matrix:
         mayhemfile:
         - fuzz/mayhemfiles/Mayhemfile_sign
+        - fuzz/mayhemfiles/Mayhemfile_sign_random
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}

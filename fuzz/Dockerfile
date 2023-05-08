@@ -19,3 +19,5 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 ## TODO: Change <Path in Builder Stage>
 
 COPY --from=builder /rust-ed25519-compact/fuzz/target/x86_64-unknown-linux-gnu/release/sign /
+
+COPY --from=builder /rust-ed25519-compact/fuzz/target/x86_64-unknown-linux-gnu/release/sign_random /

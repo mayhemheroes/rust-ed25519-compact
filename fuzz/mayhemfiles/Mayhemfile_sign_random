@@ -1,0 +1,6 @@
+project: rust-ed25519-compact
+target: sign_random
+duration: 300
+
+cmds:
+  - cmd: /sign_random

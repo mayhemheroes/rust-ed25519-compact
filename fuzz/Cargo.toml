@@ -23,3 +23,9 @@ name = "sign"
 path = "fuzz_targets/sign.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "sign_random"
+path = "fuzz_targets/sign_random.rs"
+test = false
+doc = false
